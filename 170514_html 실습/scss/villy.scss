@@ -1,0 +1,164 @@
+body {
+  font-family: 'NanumBarunGothic';
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  margin: 0;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+}
+
+header.header-main::after{
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+header.header-main{
+  position: relative;
+  width: 100%;
+  height: 314px;
+  padding-top: 58px;
+  padding-bottom: 134px;
+  background: url(../img/bg_main.jpg) no-repeat center 50%;
+  background-size: cover;
+
+  nav.nav-main{
+    border-bottom: solid 1px rgba(0,0,0,0.1);
+    padding-top: 2px;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    float: none;
+
+    div.container{
+      width: 1170px;
+      margin-right: auto;
+      margin-left: auto;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    div.container::after{
+      content: "";
+      display: block;
+      height: 60px;
+      clear: both;
+
+    }
+
+    div.nav-bar-menu{
+      margin:  19px 0;
+      float: left;
+
+      a {
+        color: #fff;
+        padding: 14px;
+        text-decoration: none;
+        float: left;
+      }
+      a.villy{
+        font-family: cursive;
+        font-size: 30px;
+        padding: 0;
+        float: left;
+      }
+
+    }
+
+    div.login-nav{
+      float: right;
+      margin-right: 0;
+      display: inline-block;
+      margin-top: 19px;
+      color: #828587;
+
+      a {
+        color: #fff;
+        padding: 14px;
+        text-decoration: none;
+        float: left;
+      }
+      a.login{
+        border: 2px solid #fff;
+        border-radius: 4px;
+        padding: 10px 14px;
+        height: 24px;
+        margin-left: 16px;
+        float: left;
+      }
+    }
+  }
+
+}
+article{
+  float: left;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+article div.container{
+  float: none;
+  height: 314px;
+  position: absolute;
+  top: 0;
+
+  div.main-text-area{
+    padding: 0 20px 0 108px;
+    width: 58.3%;
+    float: left;
+    position: relative;
+
+    div.content{
+      margin-top: 52px;
+      position: absolute;
+      width: 537px;
+      color: #fff;
+
+      span.underline{
+        display: inline-block;
+        width: 40px;
+        height: 3px;
+        background-color: #fff;
+        margin-top: 6px;
+      }
+
+      h2{
+        font-size: 35px;
+        line-height: 1.2em;
+        font-weight: 700;
+        margin-top: 10px;
+        margin-left: 2px;
+        color: #fff;
+        word-break: keep-all;
+      }
+
+      div.more{
+        border: 2px solid rgba(255,255,255,0.3);
+        border-radius: 3px;
+        padding: 9px 21px;
+        height: 24px;
+        margin-top: 25px;
+        float: none;
+
+      }
+    }
+  }
+
+
+
+
+
+
+  div.main-quick-manu{
+    width: 340px;
+    margin-top: 70px;
+    padding: 0;
+    float: left;
+    min-height: 10px;
+    position: relative;
+  }
+}
