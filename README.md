@@ -4,5 +4,5 @@
 
 ##목차
 
-- 1주차 : HTML CSS
-- 2주차 : git / python 문법 기초
+* 1주차 : HTML CSS
+* 2주차 : git / python 문법 기초
