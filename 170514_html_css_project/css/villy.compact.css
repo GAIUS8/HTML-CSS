@@ -1,0 +1,105 @@
+body { font-family: 'NanumBarunGothic'; font-size: 14px; line-height: 1.42857143; color: #333; background-color: #fff; display: block; }
+
+header div.head-main { color: #fff; position: relative; width: 100%; height: 506px; padding-top: 58px; padding-bottom: 134px; background: url(../img/bg_main.jpg) no-repeat center 50%; background-size: cover; }
+
+header div.head-main div.nav-main { border-bottom: 1px solid rgba(51, 51, 51, 0.3); line-height: 42px; vertical-align: middle; }
+
+header div.head-main div.nav-main div.villy { font-size: 30px; }
+
+header div.head-main div.nav-main div.login { border: 2px solid #fff; border-radius: 2px; }
+
+header div.head-main div.nav-main div.col-md-2, header div.head-main div.nav-main .col-md-4 { text-align: center; }
+
+div.main-text-area { padding: 0 20px 0 108px; width: 58.3%; }
+
+div.main-text-area div.content { margin-top: 52px; width: 537px; color: #fff; }
+
+div.main-text-area div.content span.underline { display: inline-block; width: 40px; height: 3px; background-color: #fff; margin-top: 6px; }
+
+div.main-text-area div.content h2 { font-size: 35px; line-height: 1.2em; font-weight: 700; margin-top: 10px; margin-left: 2px; color: #fff; word-break: keep-all; }
+
+div.main-text-area div.content p { font-size: 16px; font-weight: 200; color: #fff; margin: 0; }
+
+div.main-text-area div.content div.more { width: 149.05px; border: 2px solid rgba(255, 255, 255, 0.3); border-radius: 3px; padding: 9px 21px; height: 40px; margin-top: 25px; }
+
+div.score { width: 100%; height: 121px; border-top: 1px solid rgba(255, 255, 255, 0.1); position: absolute; bottom: 0; color: #fff; background: rgba(255, 255, 255, 0.1); text-align: center; padding: 22px 0 18px 0; border-collapse: collapse; }
+
+div.score table { margin: 0 auto; }
+
+div.score table tr td { padding-left: 20px; padding-right: 20px; }
+
+div.score tr.score-index { font-size: 16px; font-weight: 200; line-height: 16px; }
+
+div.score tr.score-value { font-size: 25px; font-weight: 400; letter-spacing: -0.05em; }
+
+div.score tr.score-bottom { text-align: center; font-weight: 200; font-size: 13px; opacity: 0.5; }
+
+div.button-area { width: 340px; margin-top: 60px; padding: 0; text-align: center; }
+
+div.button-area div.quick-button { margin-top: 10px; }
+
+section.deal-card { background-color: #e6e6e6; }
+
+section.deal-card div.container h4 { margin-top: 30px; margin-bottom: 24px; font-size: 18px; font-weight: 700; }
+
+section.deal-card .templete { float: left; width: 293.33px; padding: 0; border: 0; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06); display: block; margin-bottom: 20px; margin-left: 10px; margin-right: 25px; background-color: #fff; border-radius: 6px; padding: 0; }
+
+section.deal-card div.deal-card-img img { height: 134px; width: 293.33px; border-radius: 5px 5px 0 0; }
+
+section.deal-card .deal-card-detail { padding: 1px 20px 16px 20px; border: 1px solid #e1e1e1; border-radius: 0 0 5px 5px; border-top: 0; }
+
+section.deal-card .progress-bar { float: left; width: 100px; height: 10px; font-size: 12px; line-height: 20px; color: #fff; text-align: center; background-color: #e25050; }
+
+section.merit { background-color: #fff; padding: 56px 0 44px 0; }
+
+section.merit div.text-center { margin-right: auto; margin-left: auto; padding-left: 15px; padding-right: 15px; }
+
+section.merit div.text-center div.item { width: 469px; float: left; padding: 0 27px; }
+
+section.merit div.text-center div.item img { vertical-align: middle; border: 0; }
+
+section.merit div.text-center div.item div.merit-title { margin: 20px 0; font-size: 20px; color: #000; letter-spacing: -0.5px; }
+
+section.merit div.text-center div.item div.merit-content { margin: 0; color: #999; padding: 0 27px; font-size: 13px; font-weight: 200; line-height: 20px; word-break: keep-all; }
+
+section.press-card { padding-top: 28px; padding-bottom: 28px; border-top: 1px solid #e6e6e6; background-color: #fafafa; }
+
+section.press-card div.container { margin: 0 auto; }
+
+section.press-card div.container h2 { font-size: 22px; padding: 0 0 10px; color: #444; text-align: center; }
+
+section.press-card div.container div.press-box { opacity: 1; display: block; position: relative; width: 454px; float: left; margin-left: 15px; margin-right: 15px; }
+
+section.press-card div.container div.press-box div.press-content { padding: 90px 15px 0 0; width: 454px; position: relative; }
+
+section.press-card div.container div.press-box div.press-content img { height: 180px; width: 454px; border-radius: 5px 5px 0 0; }
+
+section.press-card div.container div.press-box div.press-content div.box-text { position: relative; border-left: 1px solid #e1e1e1; border-right: 1px solid #e1e1e1; border-bottom: 1px solid #e1e1e1; border-radius: 0 0 5px 5px; padding: 10px 30px; color: #999; height: 228px; width: 454px; background-color: #fff; }
+
+section.press-card div.container div.press-box div.press-content div.box-text img { height: 24px; width: 84px; }
+
+section.press-card div.container div.press-box div.press-content div.box-text h3 { font-size: 21px; color: #333; font-weight: 700; line-height: 26px; letter-spacing: -1px; word-break: keep-all; }
+
+section.press-card div.container div.press-box div.press-content div.box-text div.card-message { font-size: 14px; padding-top: 2px; color: #777; }
+
+section.press-card div.container div.press-box div.press-content div.box-text p.more { margin-top: 70px; color: #666; font-weight: 700; margin-bottom: 18px; font-size: 14px; }
+
+section.press-card div.container div.press-box div.press-content div.box-text span { display: inline-block; float: right; font-weight: 200; color: #999; }
+
+section.corporate { padding: 28px 0; border-top: 1px dashed #e1e1e1; }
+
+section.corporate div.container { margin-right: auto; margin-left: auto; padding-left: 15px; padding-right: 15px; }
+
+section.corporate div.container div.col-xs-12 { float: left; }
+
+section.corporate div.container div.col-xs-12 img { vertical-align: middle; margin: 0 16px; }
+
+footer { padding: 30px 0 36px 0; color: #888; background-color: #2b2d2e; font-size: 13px; line-height: 20px; padding-left: 10px; padding-right: 10px; }
+
+footer div.container { margin-right: auto; margin-left: auto; padding-left: 15px; padding-right: 15px; }
+
+footer div.row { margin-left: -15px; margin-right: -15px; }
+
+footer div.col-xs-12 a { font-size: 15px; font-weight: 700; color: #fff; margin-right: 20px; }
+
+footer div.col-md-4 { width: 33.3%; float: left; }
