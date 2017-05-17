@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="170510_Arduino.css">
+</head>
+<body>
+
+<div class="btn-group">
+  <p class="secondary-btn"><a href="#">역링크</a></p>
+  <p class="secondary-btn"><a href="#">토론</a></p>
+  <p class="secondary-btn"><a href="#">편집</a></p>
+  <p class="secondary-btn"><a href="#">페이지</a></p>
+</div>
+
+<h1>Arduino</h1>
+<p class="modified-date">최근 수정 시각: 2017-05-10 00:24:26+0900</p>
+
+<div class="auth-info"><a href="https://namu.wiki/w/%EC%95%84%EB%91%90%EC%9D%B4%EB%85%B8?noredirect=1">아두이노</a>에서 넘어옴</div>
+
+<ul>
+  <li>상위 문서: <a href="https://namu.wiki/w/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B4%80%EB%A0%A8%20%EC%A0%95%EB%B3%B4">컴퓨터 관련 정보, </a><a href="#">프로그래밍 언어,</a><a href="#">예술 관련 정보, </a><a href="https://namu.wiki/w/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EC%96%B8%EC%96%B4">미디어 아트</a></li>
+</ul>
+
+<div class="wiki-index">
+  <h3>목차</h3>
+  <ol>
+    <li>개요</li>
+    <ul>
+      <li>1.1 Genuino</li>
+    </ul>
+    <li>하드웨어</li>
+    <ul>
+      <li>2.1 호환, 파생 제품들</li>
+    </ul>
+    <li><a href="#">소프트웨어 개발환경</a></li>
+    <li>버전</li>
+    <li>주의사항</li>
+    <li>한국 내 동향</li>
+    <li>관련 문서</li>
+  </ol>
+</div>
+<br><br>
+
+<a href="#" class="green-url">공식홈페이지(arduino.cc)</a><br>
+<a href="#" class="green-url">공식홈페이지(arduino.org)</a>
+<br><br>
+
+<h2 class="headline">1.개요</h2>
+<div>
+  <table class="intro-image-table">
+    <td class="image-table"><img src="https://image-proxy.namuwikiusercontent.com/r/http%3A%2F%2Farduino.cc%2Fen%2Fpub%2Fskins%2FarduinoWide_SSO%2Fimg%2Flogo.png" alt=""></td>
+    <td class="image-table"><img src="https://cdn.namuwikiusercontent.com/a7/a79dee2721c4810f28b32fe14cecf478982bb0c001f997f7d4bcaa70071f505d.png?e=1497969790&k=2Mvar_pwhcN_Oc9oy_W61Q" alt=""></td>
+  </table>
+  <p align="middle"><iframe width="560" height="315" src="https://www.youtube.com/embed/UoBUXOOdLXY" frameborder="0" allowfullscreen></iframe><p>
+</div>
+<p class="preline">
+AVR 기반의 마이크로컨트롤러 개발환경인 Wiring에서 파생한 프로젝트다.
+
+영어로 '아두이노', 이탈리아어로 '아르두이노'라고 읽는다. 영어권의 영향이 강한 국내에서 많이 사용되는 명칭은 아두이노. 이탈리아어로 우리는 사귄다 힘세고 강한 친구를 '강력한 친구'라는 뜻이라는 듯. 2005년 이탈리아의 Massimo Banzi와 David Cuartielles가 처음 개발하였다. 개발자 Massimo Banzi가 직접 저술한 <Getting Started with Arduino>(번역명 <손에 잡히는 아두이노>)를 필두로 많은 입문서들이 나와 있다.
+
+아두이노와 관련된 작품들을 보고싶다면 이곳를 추천한다. 많은양의 아두이노 작품들을 볼 수 있다.다만 다른것을이용한 작품들도 있기는하다.
+</p>
+
+<h2 class="headline">1.1 Genuino</h2>
+<p class="preline">
+현재 Arduino 브랜드는 미국 안에서만 쓰인다. 미국 밖(유럽 등)에서는 옆에 있는 Genuino 브랜드가 쓰이며, 이는 2015년 5월에 발표된 자매 브랜드이다. 그러나 국내에서는 Genuino의 인지도가 바닥이다.
+
+2015년 7월 경, 해외를 위해 다른 제조사에서 제작을 하고 그 이름을 Genuino로 정했다며 브랜드 발표 후에 Arduino Leonardo 등의 몇몇 제품을 단종시킨 일과 겹쳐져 사용자들에게 돈을 더 벌기 위해 그러는 것이냐며 쓴소리를 듣고 있다...라고 적혀 있었는데, 사실은 훨씬 복잡한 사정이 있다.
+
+Massimo Banzi의 동업자 친구가 메인 제조회사(현 Arduino.org)를 맡고 있었는데, 그쪽에서 만들면 창립자 Banzi의 단체 Arduino LLC에 아두이노 상표명 개런티를 지불하고 판매하는 식이었는데 그 친구가 몰래 아두이노의 근원지인 이탈리아에서 Arduino 상표명을 선점해버렸다는게 드러났다. 다 사업을 위해서라며 Banzi를 비롯한 다른 동업자들을 안심시킨 그 친구는 이탈리아 밖 지역의 아두이노 원래 상표권의 갱신 시기가 되자 개런티 지불을 그만두고 소송을 걸어서 이탈리아에 상표권이 있으면 유럽연합에 다 적용되는거 아니냐는 논리로 유럽 전역의 Arduino 상표권을 뺏어가버렸다(...)
+
+현재 맞소송이 진행중이다.
+Arduino.cc와 Arduino.org 양사가 합의를 했으며, 앞으로는 "아두이노 홀딩(Arduino Holding)"이라는 이름으로 합병하고 진행할 것이며, 소프트웨어 등 지원은 "아두이노 재단(Arduino Foundation)"에서 진행할 예정이라고 하며, 이것들은 내년부터 시행할 예정이라고 한다.
+</p>
+
+<h2 class="headline">2. 하드웨어</h2>
+<div>
+  <table class="intro-image-table">
+    <td class="image-table"><img src="https://image-proxy.namuwikiusercontent.com/r/http%3A%2F%2Farduino.cc%2Fen%2Fuploads%2FMain%2FArduinoUno_R3_Front_450px.jpg" alt=""></td>
+    <td class="image-table"><img src="https://cdn.namuwikiusercontent.com/24/242511e3a10047deab5cb32ad4416613c96564ff18ed28de5e4e229e32ee4382.png?e=1494851598&k=8x7Wnw5IzCTZqmJVRt1BJw" alt=""></td>
+  </table>
+</div>
+<p class="preline">
+  위 사진의 보드는 우노 R3 버전으로 2013년 기준 레퍼런스 보드이자 가장 보편적으로 사용되는 보드다. 사용하는 마이크로컨트롤러는 ATMega328P로 16MHz로 동작하고 프로그램 저장용 플래시 32kb를 내장한 프로세서이다.
+
+  아두이노는 주로 Atmel사의 AVR을 사용하는 오픈소스 마이크로컨트롤러 보드이다. 아래 보드들 가운데 사용된 칩 이름 앞에 AT가 들어간 것들이 바로 그것. 임베디드 개발 경험이 전혀 없는 사람을 위해 개발된 교육용 플랫폼이기 때문에 프로그램을 작성하고 보드에 프로그램을 올리는 과정을 단순화하여 다루기 쉽게 되어 있다. 버전에 따라 조금씩 다르지만 아두이노 보드와 개발 환경은 대개 다음과 같은 모습이다.
+
+  상술하였지만, 미국에서는 아두이노(Arduino)로 불리며, 미국 밖에선 제누이노(Genuino)로 불린다.
+  제품 표
+
+  자세한 내용은 Arduino/하드웨어 문서 참조.
+</p>
+<ul>
+  <li>엔트리레벨
+    <ul>
+      <li><img src="https://image-proxy.namuwikiusercontent.com/r/https%3A%2F%2Fwww.arduino.cc%2Fen%2Fuploads%2FMain%2FArdGen_UNO.jpg" alt="">우노-AT</li>
+      <li><img src="https://image-proxy.namuwikiusercontent.com/r/https%3A%2F%2Fwww.arduino.cc%2Fen%2Fuploads%2FMain%2F101.jpg" alt="">101 - 인텔 쿼리 사용</li>
+    </ul>
+  </li>
+  <li>향상된 성능
+    <ul>
+      <li><img src="https://image-proxy.namuwikiusercontent.com/r/https%3A%2F%2Fwww.arduino.cc%2Fen%2Fuploads%2FMain%2FArdGen_Mega.jpg" alt="">메가-ATmega2560</li>
+      <li><img src="https://image-proxy.namuwikiusercontent.com/r/https%3A%2F%2Fwww.arduino.cc%2Fen%2Fuploads%2FMain%2FArdGen_Zero.jpg" alt="">제로-ATSAMD21G18</li>
+    </ul>
+  </li>
+  <li>IOT(사물 인터넷)
+    <ul>
+      <li><img src="https://image-proxy.namuwikiusercontent.com/r/https%3A%2F%2Fwww.arduino.cc%2Fen%2Fuploads%2FMain%2Fmkr1000_both.jpg" alt="">MKR1000 - SAMD21/li>
+      <li><img src="https://image-proxy.namuwikiusercontent.com/r/https%3A%2F%2Fwww.arduino.cc%2Fen%2Fuploads%2FMain%2FASX00001_featured.jpg" alt="">와이파이 쉴드</li>
+    </ul>
+  </li>
+  <li>웨어러블
+    <ul>
+      <li><img src="https://image-proxy.namuwikiusercontent.com/r/https%3A%2F%2Fwww.arduino.cc%2Fen%2Fuploads%2FMain%2Fgemma_featured.jpg" alt="">제마-ATtiny85/li>
+      <li><img src="https://image-proxy.namuwikiusercontent.com/r/https%3A%2F%2Fwww.arduino.cc%2Fen%2Fuploads%2FMain%2FE000017_landing.jpg" alt="">릴리패드 아두이노 USB</li>
+    </ul>
+  </li>
+  <li>3D프린팅
+    <ul>
+      <li><img src="https://image-proxy.namuwikiusercontent.com/r/https%3A%2F%2Fwww.arduino.cc%2Fen%2Fuploads%2FMain%2FMateria101_ISO.jpg" alt="">마테리아 101</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 class="headline">2.1 호환, 파생 제품들</h2>
+<p class="preline">
+오픈소스 하드웨어인 관계로 여러회사들에서 자체적으로 제작한 보드들을 eBay나 Aliexpress 등에서 내놓고 있으며 이중에는 기능이 추가된 버전부터 시작해서 여러 버전들이 있다. 간단한 선에서는 그냥 저렴하게 만든 중국제들 부터 시작해서[2] 보드에 블루투스[3], 와이파이[4] 등의 통신모듈을 내장시킨 것들은 흔하며 초소형화[5]된 것들도 볼 수 있다.
+</p>
+
+<h2 class="headline">3. 소프트웨어 개발환경</h2>
+<p class="preline">
+  <a href="https://namu.wiki/w/Arduino/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD">Arduino/소프트웨어 개발환경 </a>참고.
+</p>
+
+<h2 class="headline">4. 버전</h2>
+<p class="preline">
+2016년 2월 현재 기본형이라고 할 수 있는 Arduino Uno를 비롯한 다양한 변종이 있다. 하드웨어의 회로도까지 오픈 소스라 아두이노와 호환되는 보드를 정품보다 훨씬 저렴한 값에도 구할 수 있다. 모든 소스가 공개되어 능력이 되면 자작도 가능하다.
+
+긴 알파 테스트 기간을 거쳐서 2011년 11월 30일, 1.0 버전이 릴리즈되었다. 2012년 5월 21일 공개된 1.0.1버전부터는 UI의 언어가 다국어지원이 되는데 이 중에는 한글도 있어 초심자들의 접근이 더욱 쉽게 되었다. 2017년 현재 최신버전은 1.8.0버전이다.
+
+2012년 7월 즈음 아두이노 신제품인 아두이노 Leonardo(레오나르도)가 출시되었다.근데 단종이다. 특징으로 온칩 USB 컨트롤러가 내장된 Atmega32U4를 메인으로 채택해 단가를 줄이고딱히 가격이 싸다고는 안 했다. 마우스,키보드로 인식시킬 수 있어 다양한 활용이 가능하다. 참고로 아두이노 우노를 dfu-program울 이용해서 펌웨어를 업데이트하면 레오나르도처럼 USB입력장치로 사용이 가능하지만 이 경우에는 레오나르도처럼 바로 업로딩 후에 인식이 가능하지 않고, dfu모드 진입과 해제의 과정을 거친 후에 HID 장치로 인식이 가능하다. 그래서 한번 펌웨어를 업데이트시킨 상태에서 수정하려면 좀 번거롭다. 그러니 아두이노를 입력장치로 써먹을려면 그냥 레오나르도를 사용하는편이 좋다. 그리고 dfu-program으로 펌웨어를 올리는 과정에서 잘못하다가 아두이노의 UART 컨버터가 벽돌이 될 수 있으니 조심하도록 하자. 그렇지만 살 사람은 산다
+
+2013년 초 ARM Cortax-M3 SAM3E8X(512KB 플래시 메모리,96KB SRAM, 클럭 84Mhz)를 채택한 Arduino Due가 출시되었다. 기존의 Arduino Mega 2560[6]의 후속모델에 가깝다. ARM 기반이니만큼 프로세서 성능은 훨씬 고성능이다. 다만 아날로그 입력/PWM 출력이 12핀으로 MEGA보다 약간 적다. DAC 두 개와 CAN 핀쓸 수 있다고는 안 했다. 때문에 그렇다. 총 4개가 줄어든 셈. 동작 전압이 다른 보드와 다른 3.3V이므로 I/O 핀에 5V를 인가하면 핀이 나가는 수가 있으니 주의. 일반적인 아두이노 보드의 동작전압은 5V이다. 3.3V는 FTDI에 내장된 레귤레이터나, UNO 같이 FTDI가 없으면 온보드 레귤레이터로 출력한다.
+
+2013년 10월에는 인텔에서 갈릴레오라는 이름으로 자사 펜티엄 기반의 32nm공정을 사용한 새로운 인텔 쿼크[7] SoC를 탑재한 호환 보드를 발표하였다. 며칠 뒤에는 TI에서 Cortex-A8 기반의 자사 1GHz Sitara SoC와 ATmega32U4를 동시에 내장한 아두이노 Tre라는 보드를 발표하였다. Tre는 Uno와는 100배 이상의 성능 차이가 있다고 하는데근데 그 성능 뽑으려면 SoC 직접 건드려야 되는 건 함정. 레오나르도에 탑재된 ATmega32U4까지 동시에 내장해서 호환성 문제는 없다. 인텔의 갈릴레오는 2014년 4월경 단종 수순 (핀 호환성이 영 안 좋다는 이야기가 있다. 인텔 쿼크 항목을 참조)이고 대신 갈릴레오2가 출시되었다. 갈릴레오 2 이후 사물인터넷을 위한 Intel Edison 보드가 출시되었다. 아두이노와 꽤 협력적인 관계를 구축한듯. 실제로 아두이노 공식적으로 인증된 타회사제 아두이노 기판은 죄다 인텔제.
+
+2014년 5월 15일 아두이노 Uno의 후속으로 아두이노 Zero가 발표되었다#. 가장 큰 변경점은 MCU가 기존의 ATMega 계열에서 ARM Cortex-M0+ 계열로 변경되면서 연산속도와 메모리공간 등이 늘어난 것.가격도 늘어났다
+
+이외에 아두이노 Yun이라는 리눅스 OS로 구동되는 보드나 브레드보드같은 곳에 꼽아 사용 가능한 아두이노 Micro, Nano, (Pro)Mini, Yun Mini 같은 물건들도 발매되었다. 리눅스 OS 기반은 갈릴레오같이 에뮬레이션 방식은 아니고 32U4와 리눅스 머신이 같이 내장된다.
+
+현재 최신 보드는 Arduino 101로 인텔과 협작으로 나온 보드다. 특징은 인텔 Curie 칩을 사용하고 BLE와 가속도계, 자이로스코프가 보드에 기본 내장된다. 또 작동 전압이 3.3V이지만 5V를 인가해도 핀이 손상되지 않는다. 가격도 국내에서 4만원 후반대의 가격. 라즈베리 파이와 비슷하다. [8] 101은 구조상 프로세서가 2개 붙어있어서 한쪽은 RTOS 서비스를 돌리고 다른쪽 코어는 유저의 코드와 라이브러리를 돌린다. 여기에 둘을 연결하는 메일박스를 두고 양측이 필요한 작업요청을 주고받는 메시지패싱 구조를 가지고 있다. 이때 유저는 OS와 메모리를 나눠 쓰기 때문에 느낌상 메모리가 적어보이게 된다. 그러나 OS가 제공하는 편의성이 괜찮아서 큰 손해는 아니다. 다만 이 OS와 라이브러리는 아직 문서와 예제가 부실해서 문서가 없으면 소스코드를 보면 된다는 정도의 기본기는 있어야 본격적으로 응용을 해볼 수 있는 상태라는게 문제. 이렇게보면 이게 무슨 입문용이냐 싶겠지만 어차피 기본문법의 스케치라면 똑같게 돌아가는 것이고, 5V 입력 핀이 달려있어서 태워먹을 위험없이 UNO용 회로들을 시도해볼 수 있으며, 32비트 보드 중에는 가격도 적절해서 입문용이라고 해도 별 문제는 없다[9].
+</p>
+
+<h2 class="headline">5. 주의사항</h2>
+<p class="preline">
+앞서 언급했듯이 성능이 떨어지기 때문에 개발과정에서 생각 외의 부분이 장비를 정지시키는 경우가 있다. 컴파일까지 잘 해놓은 게 정작 보드에서는 장비가 멈춰버리는 경우가 있으니 개발과정에서 문제가 생겼다면 마지막으로 추가한 내용들을 살펴보며 코드의 내용을 최대한 다이어트 시켜보자. String값 처리하는 부분 때문에 멈췄다거나 하는 식으로 다른 데에서는 문제가 없을 만한 부분이 문제를 일으키는 경우가 있다. 한 예로 개발 도중에 동작 테스트를 위해 추가한 Serial.print();문 몇 줄을 지웠는데 추가한 코드들이 갑자기 정상적으로 돌아가는 경우도 있다.어?[10][11][12]
+
+아두이노 자체의 성능 제약을 피하려면, 라즈베리 파이 같은 다른 장치를 연결해 연산은 다른 데에서 처리하고, 아두이노는 센서나 액추에이터 등을 관리하는 기계로만 사용하는 게 나을 수도 있다. 아두이노에 Firmata라는 펌웨어를 올리면[13] Firmata 프로토콜을 통해서 외부에서 아두이노를 컨트롤할 수 있게 된다. Processing을 비롯해 꽤 많은 언어를 이용하여 Firmata로 아두이노를 컨트롤할 수 있으니 이쪽을 알아보는 것도 괜찮다. 이걸 잘 활용하면 아두이노에는 최소한의 코드만 올리고 연산 부하가 큰 나머지 부분은 PC나 라즈베리 파이 같은 별도의 장치의 자원을 사용하여 돌리는 식으로 동작시키는 게 가능하다. 아두이노 자체로는 센서값 읽어서 판단하고 트윗올리는 것만 짜넣어도 빡빡한 경우가 있으니 판을 크게 벌일 거라면 다른 장치를 사용해 통제하는 걸 고려해보자. 실제로 많은 작업들이 이렇게 제작된다. 판이 크지 않다고 하더라도 외부 컴퓨터-아두이노 사이의 통신이 필요한 프로젝트인 경우, 시리얼 통신으로 메시지를 주고받는 것보다 자연스러운 형태로 코딩이 가능하므로 Firmata를 적극 사용해보는 것도 괜찮다. 이런 과정이 번거롭다면 내부 플래시와 램 용량이 크게 늘어난 아두이노 두에 혹은 2016년 기준 최신형인 제로[14]나 전술한 101 또는 Primo, Star를 쓰는 것도 좋은 선택.
+
+그리고 또 주의할 점이 있는데, 아두이노 IDE에 내장된 ArduinoISP 예제[15]를 이용하여 다른 아두이노에 업로드를 할 경우, ArduinoISP로 업로드받은 아두이노는 부트로더가 지워진다! 그렇기 때문에 왠만하면 USB TO UART 컨버터를 이용해 업로드하자.
+</p>
+
+<div class="headline">
+  <div class="lastbox">
+    분류: <a href="https://namu.wiki/w/%EB%B6%84%EB%A5%98:SBC">SBC</a>
+  </div>
+</div>
+
+
+
+</body>
+</html>
